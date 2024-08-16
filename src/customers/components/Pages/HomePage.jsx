@@ -38,8 +38,8 @@ import { findProductByCategory } from "../../../State/Product/Action";
 const productData = [
   "mens_kurta",
   "men_jeans",
-  "men_shirts",
-  "women_top",
+  "shirt",
+  "top",
   "women_jeans",
 ];
 
