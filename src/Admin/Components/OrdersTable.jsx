@@ -110,7 +110,7 @@ const OrdersTable = () => {
                       <p> {orderItem.product.category.name}</p>
                     ))}
                   </TableCell>
-                  <TableCell align="left">₹{item.discountedPrice}</TableCell>
+                  <TableCell align="left">₹{item.discount}</TableCell>
                   <TableCell align="left">
                     <span
                       className={`text-white px-5 py-2 rounded-full ${
