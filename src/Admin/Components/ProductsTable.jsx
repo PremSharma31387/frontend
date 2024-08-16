@@ -21,16 +21,16 @@ const ProductsTable = () => {
   console.log("Products ----->", products);
   useEffect(() => {
     const data = {
-      category: "mens_kurta",
+      category: "",
       colors: [],
       sizes: [],
       minPrice: 0,
-      maxPrice: 100000,
+      maxPrice: 10000000,
       minDiscount: 0,
       sort: "price_low",
       pageNumber: 0,
       pageSize: 2000,
-      stock: "in_stock",
+      stock: "",
     };
 
     // console.log("data", data);
