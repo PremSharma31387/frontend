@@ -132,7 +132,7 @@ export default function Product() {
     // Dispatch your action here with the data
     dispatch(findProducts(data));
   }, [
-    param.thirdLevel,
+    param.levelThree,
     colorValue,
     sizeValue,
     priceValue,
