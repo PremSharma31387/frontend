@@ -26,7 +26,7 @@ export const NavigationData = {
           id: "clothing",
           name: "Clothing",
           items: [
-            { name: "Tops", id: "women_top", href: `{women/clothing/tops}` },
+            { name: "Tops", id: "top", href: `{women/clothing/tops}` },
             { name: "Dresses", id: "women_dress", href: "#" },
             { name: "Women Jeans", id: "women_jeans" },
             { name: "Lengha Choli", id: "lengha_choli" },
@@ -90,7 +90,7 @@ export const NavigationData = {
           name: "Clothing",
           items: [
             { name: "Mens Kurtas", id: "mens_kurta" },
-            { name: "Shirt", id: "men_shirts" },
+            { name: "Shirt", id: "shirt" },
             { name: "Men Jeans", id: "men_jeans" },
             { name: "Sweaters", id: "#" },
             { name: "T-Shirts", id: "t-shirt" },
