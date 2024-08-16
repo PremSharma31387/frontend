@@ -42,7 +42,7 @@ const OrderCard = ({ item, date, address, status }) => {
         </Grid>
 
         <Grid item xs={2}>
-          <p>₹{item.price}</p>
+          <p>₹{item.discountedPrice}</p>
         </Grid>
 
         <Grid item xs={4}>
