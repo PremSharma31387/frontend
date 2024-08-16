@@ -104,7 +104,7 @@ const OrdersTable = () => {
                       <p> {orderItem.product.title}</p>
                     ))}
                   </TableCell>
-                  <TableCell align="left">{item.id}</TableCell>
+                  <TableCell align="left">{item.category.name}</TableCell>
                   <TableCell align="left">
                     ₹{item.totalDiscountedPrice}
                   </TableCell>
